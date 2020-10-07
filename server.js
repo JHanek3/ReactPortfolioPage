@@ -1,15 +1,14 @@
-const express = require('express')
-const cors = require('cors')
-const http = require('https')
-const app = module.exports.app = express()
+// const express = require('express')
+// const cors = require('cors')
+// const http = require('https')
+// const app = module.exports.app = express()
+// app.use(cors())
 
-const server = http.createServer(app);
+
+const server = require("http").createServer();
 const io = require("socket.io")(server);
 
-app.use(cors())
-
-// const PORT = 4000;
-const PORT = process.env.PORT || 5000;
+const PORT = 4000;
 const NEW_CHAT_MESSAGE_EVENT = "newChatMessage";
 
 io.on("connection", (socket) => {

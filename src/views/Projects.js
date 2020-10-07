@@ -48,7 +48,7 @@ function Projects() {
             <Card.Body>
               <Card.Title>Chat App</Card.Title>
               <Card.Text>
-                Simple chat-app, to im with other users. Make sure you are in the same chat room, both login into chat room "test1".
+                Simple chat-app, to im with other users. Make sure you are in the same chat room. Server ran locally, looking how to deploy with heroku.
               </Card.Text>
               <Button href="/projects/ChatApp" variant="primary">Take a look!</Button>
             </Card.Body>
