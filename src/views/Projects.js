@@ -22,7 +22,7 @@ function Projects() {
         <Row>
           <Col>
           {/* For loop through this in the future, this is straight booty fix the layout too */}
-          <Card style={{ width: '18rem', height: '15rem' }}>
+          <Card className="projCard">
             <Card.Body>
               <Card.Title>ToDo List</Card.Title>
               <Card.Text>
@@ -33,7 +33,7 @@ function Projects() {
           </Card>
           </Col>
           <Col>
-          <Card style={{ width: '18rem', height: '15rem' }}>
+          <Card className="projCard">
             <Card.Body>
               <Card.Title>Quote Generator</Card.Title>
               <Card.Text>
@@ -44,7 +44,7 @@ function Projects() {
           </Card>
           </Col>
           <Col>
-          <Card style={{ width: '18rem', height: '15rem' }}>
+          <Card className="projCard">
             <Card.Body>
               <Card.Title>Chat App</Card.Title>
               <Card.Text>
