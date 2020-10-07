@@ -4,7 +4,7 @@ import socketIOClient from "socket.io-client"
 const NEW_CHAT_MESSAGE_EVENT = "newChatMessage" //name of the event
 // const SOCKET_SERVER_URL = "http://localhost:4000"
 const SOCKET_SERVER_URL =
-  "https://hanekreact.herokuapp.com/ChatApp";
+  "https://hanekreact.herokuapp.com/";
 
 const useChat = (roomId) => {
   const [messages, setMessages] = useState([])
