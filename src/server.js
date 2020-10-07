@@ -1,7 +1,14 @@
-const server = require("http").createServer();
+const express = require('express');
+// const PORT = 4000;
+const PORT = "https://hanekreact.herokuapp.com/"
+
+// const server = require("http").createServer();
+const server = express()
+  // .use((req, res) => res.sendFile(INDEX, {root: __dirname}))
+  .listen(PORT, (console.log(`Listening on ${PORT}`)))
+
 const io = require("socket.io")(server);
 
-const PORT = "https://hanekreact.herokuapp.com/";
 const NEW_CHAT_MESSAGE_EVENT = "newChatMessage";
 
 io.on("connection", (socket) => {
@@ -21,8 +28,4 @@ io.on("connection", (socket) => {
     console.log(`Client ${socket.id} diconnected`);
     socket.leave(roomId);
   });
-});
-
-server.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
 });
