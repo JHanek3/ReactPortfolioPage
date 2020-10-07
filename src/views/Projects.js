@@ -21,7 +21,7 @@ function Projects() {
       <p>My new projects will go here! The old react projects will be slowly integrated into this page.</p>
         <Row>
           <Col>
-          {/* For loop through this in the future */}
+          {/* For loop through this in the future, this is straight booty fix the layout too */}
           <Card style={{ width: '18rem', height: '15rem' }}>
             <Card.Body>
               <Card.Title>ToDo List</Card.Title>
@@ -29,6 +29,17 @@ function Projects() {
                 One of my first react projects, just a simple to do list with the ablity to check and uncheck tasks. Wil add redux in the future.
               </Card.Text>
               <Button href="/projects/List" variant="primary">Take a look!</Button>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card style={{ width: '18rem', height: '15rem' }}>
+            <Card.Body>
+              <Card.Title>Quote Generator</Card.Title>
+              <Card.Text>
+                I like reading books and I like saving meaningful quotes I come across to share with others. Random select with animation.
+              </Card.Text>
+              <Button href="/projects/FunReads" variant="primary">Take a look!</Button>
             </Card.Body>
           </Card>
           </Col>
