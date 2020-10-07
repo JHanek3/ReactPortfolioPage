@@ -5,7 +5,7 @@ const app = module.exports.app = express()
 const server = http.createServer(app);
 const io = require("socket.io")(server);
 
-const PORT = process.env.PORT || 4000;
+const PORT = "https://hanekreact.herokuapp.com/" || 4000;
 const NEW_CHAT_MESSAGE_EVENT = "newChatMessage";
 
 io.on("connection", (socket) => {
