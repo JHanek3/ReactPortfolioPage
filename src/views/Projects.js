@@ -18,22 +18,32 @@ function Projects() {
       <ProjHeader/>
       <hr></hr>
       <Container className="projContainer1">
+      <p>My new projects will go here! The old react projects will be slowly integrated into this page.</p>
         <Row>
           <Col>
-          <p>My new projects will go here! The old react projects will be slowly integrated into this page.</p>
           {/* For loop through this in the future */}
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem', height: '15rem' }}>
             <Card.Body>
               <Card.Title>ToDo List</Card.Title>
               <Card.Text>
-                One of my first react projects, just a simple to do list with the ablity to check and uncheck tasks.
+                One of my first react projects, just a simple to do list with the ablity to check and uncheck tasks. Wil add redux in the future.
               </Card.Text>
-              <Button href="/List" variant="primary">Take a look!</Button>
+              <Button href="/projects/List" variant="primary">Take a look!</Button>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card style={{ width: '18rem', height: '15rem' }}>
+            <Card.Body>
+              <Card.Title>Chat App</Card.Title>
+              <Card.Text>
+                Simple chat-app, to im with other users. Make sure you are in the same chat room, both login into chat room "test1".
+              </Card.Text>
+              <Button href="/projects/ChatApp" variant="primary">Take a look!</Button>
             </Card.Body>
           </Card>
           </Col>
         </Row>
-        
       </Container>
     </Container>
   );
