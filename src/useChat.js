@@ -2,14 +2,14 @@ import {useEffect, useRef, useState} from "react"
 import socketIOClient from "socket.io-client"
 
 const NEW_CHAT_MESSAGE_EVENT = "newChatMessage" //name of the event
-// const SOCKET_SERVER_URL = "http://localhost:4000"
+// const SOCKET_SERVER_URL = "http://localhost:5000"
 const SOCKET_SERVER_URL =
-  "https://hanekreact.herokuapp.com/";
+  "https://hanekreact.herokuapp.com/ChatApp";
 
 const useChat = (roomId) => {
   const [messages, setMessages] = useState([])
   const socketRef = useRef()
-  //useRef is used to keepy any mutable value around, like instance fields in classes
+  //useRef is used to keep any mutable value around, like instance fields in classes
   
   useEffect(() => {
     
