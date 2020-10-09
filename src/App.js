@@ -10,6 +10,10 @@ import List from "./components/ToDo/ToDoList"
 import Quote from "./components/Quote/Quote"
 import ChatHome from "./components/ChatRoom/ChatHome"
 import ChatRoom from "./components/ChatRoom/ChatRoom"
+import DashboardPage from './components/Blog/DashboardPage'
+import PostsPage from './components/Blog/PostsPage'
+import SinglePostPage from './components/Blog/SinglePostPage'
+import SWPlanet from "./components/SWApi/SWPlanet"
 
 
 function App() {
@@ -23,6 +27,10 @@ function App() {
           <Route exact path="/projects/FunReads" component={Quote}/>
           <Route exact path="/projects/ChatApp" component={ChatHome} />
           <Route exact path="/ChatApp/:roomId" component={ChatRoom} />
+          <Route exact path="/projects/Blog" component={DashboardPage} />
+          <Route exact path="/projects/Blog/posts" component={PostsPage} />
+          <Route exact path="/projects/Blog/posts/:id" component={SinglePostPage} />
+          <Route exact path="/projects/SWPlanet" component={SWPlanet} />
         </Switch>
       <Footer />
     </>

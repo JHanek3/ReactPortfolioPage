@@ -55,6 +55,41 @@ function Projects() {
           </Card>
           </Col>
         </Row>
+        <Row className="projRow">
+          <Col>
+            <Card className="projCard">
+              <Card.Body>
+                <Card.Title>SW API</Card.Title>
+                <Card.Text>
+                  Star Wars API call to receive some information about Planets. Then went on to display the information in a table and also with a graph.
+                </Card.Text>
+                <Button href="/projects/SWPlanet" variant="primary">Take a look!</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="projCard">
+              <Card.Body>
+                <Card.Title>Blog App</Card.Title>
+                <Card.Text>
+                  Getting my hands wet with redux. Following along https://www.taniarascia.com/redux-react-guide/#actions, big fan of the setup.
+                </Card.Text>
+                <Button href="/projects/Blog" variant="primary">Take a look!</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="projCard">
+              <Card.Body>
+                <Card.Title>Filler</Card.Title>
+                <Card.Text>
+                  I do nothing, Im just here to keep the card setup pretty.
+                </Card.Text>
+                <Button href="/projects" variant="primary">Take a look!</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </Container>
     </Container>
   );

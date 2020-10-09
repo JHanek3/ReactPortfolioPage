@@ -3,7 +3,7 @@ import { Navbar, Nav} from "react-bootstrap";
 
 function Footer() {
   return (
-    <Navbar className="justify-content-center footer" fixed="bottom">
+    <Navbar className="justify-content-center fixed-bottom footer">
       <Nav.Item>
         <Nav.Link className="footerLink" href="/">Home</Nav.Link>
       </Nav.Item>
