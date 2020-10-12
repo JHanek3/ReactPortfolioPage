@@ -61,9 +61,9 @@ function Projects() {
           <Col>
             <Card className="projCard">
               <Card.Body>
-                <Card.Title>Blog App</Card.Title>
+                <Card.Title>Weather Widget</Card.Title>
                 <Card.Text>
-                  Getting my hands wet with redux. Following along https://www.taniarascia.com/redux-react-guide/#actions, big fan of the setup.
+                  Simple Weather API call that shows the 7 day forecast layout is react-bootstrap. Used useEffect instead of storing in Redux for the fetching.
                 </Card.Text>
                 <Button href="/projects/Blog" variant="primary">Take a look!</Button>
               </Card.Body>
@@ -72,11 +72,11 @@ function Projects() {
           <Col>
             <Card className="projCard">
               <Card.Body>
-                <Card.Title>Filler</Card.Title>
+                <Card.Title>Blog App</Card.Title>
                 <Card.Text>
-                  I do nothing, Im just here to keep the card setup pretty.
+                  Getting my hands wet with redux. Following along https://www.taniarascia.com/redux-react-guide/#actions.
                 </Card.Text>
-                <Button href="/projects" variant="primary">Take a look!</Button>
+                <Button href="/projects/Blog" variant="primary">Take a look!</Button>
               </Card.Body>
             </Card>
           </Col>
