@@ -2,15 +2,6 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "../App.css"
 import ProjHeader from "../components/Projects/ProjHeader.js"
-// import Quote from "./components/Quote/Quote"
-// import SpeedTypingGame from "./components/SpeedTypingGame"
-// import PicSome from "./components/PicSome/PicSome.js"
-// import Cart from "./pages/Cart"
-// import Calculator from "./components/Calculator"
-// import SWApi from "./components/SWApi"
-// import CRUD from "./components/CRUD"
-// import WeatherAPI from "./components/Weather/WeatherApi"
-// import SWChar from "./components/SWChar/SWChar"
 
 function Projects() {
   return (

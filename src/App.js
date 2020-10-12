@@ -14,7 +14,7 @@ import DashboardPage from './components/Blog/DashboardPage'
 import PostsPage from './components/Blog/PostsPage'
 import SinglePostPage from './components/Blog/SinglePostPage'
 import SWPlanet from "./components/SWApi/SWPlanet"
-
+import WeatherAPI from "./components/Weather/WeatherApi"
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
           <Route exact path="/projects/Blog/posts" component={PostsPage} />
           <Route exact path="/projects/Blog/posts/:id" component={SinglePostPage} />
           <Route exact path="/projects/SWPlanet" component={SWPlanet} />
+          <Route exact path="/projects/WeatherAPI" component={WeatherAPI} />
         </Switch>
       <Footer />
     </>
