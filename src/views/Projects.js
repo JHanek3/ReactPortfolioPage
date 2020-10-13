@@ -65,7 +65,7 @@ function Projects() {
                 <Card.Text>
                   Simple Weather API call that shows the 7 day forecast layout is react-bootstrap. Used useEffect instead of storing in Redux for the fetching.
                 </Card.Text>
-                <Button href="/projects/Blog" variant="primary">Take a look!</Button>
+                <Button href="/projects/WeatherAPI" variant="primary">Take a look!</Button>
               </Card.Body>
             </Card>
           </Col>
